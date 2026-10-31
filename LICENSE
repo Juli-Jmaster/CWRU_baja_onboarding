@@ -1,16 +1,20 @@
-MIT License
+Modified MIT Non-Commercial License
 
 Copyright (c) 2026 Juli-Jmaster
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+of this software and associated documentation files (the "Software"), to use,
+copy, modify, and distribute the Software for personal and private
+non-commercial purposes, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+  1. The Software may be redistributed in its original, unmodified form, provided
+that the above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+  2. Modified copies of the Software may not be distributed, published, sublicensed,
+or sold without the prior express written permission of the copyright holder.
+
+  3. The term “personal and private” does not include commercial use.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
