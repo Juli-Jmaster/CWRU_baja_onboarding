@@ -10842,6 +10842,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 148.59) (xy 116.84 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "955198e7-cd86-4fd6-a797-f78b2f0caa77")
+	)
+	(wire
+		(pts
 			(xy 196.85 151.13) (xy 185.42 151.13)
 		)
 		(stroke
@@ -10879,6 +10889,16 @@
 			(type default)
 		)
 		(uuid "96e7a4e1-d569-4ae5-b3df-19365a779c25")
+	)
+	(wire
+		(pts
+			(xy 116.84 148.59) (xy 116.84 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96eceb90-7318-4296-a6b1-74429de06dd4")
 	)
 	(wire
 		(pts
@@ -11872,7 +11892,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 148.59) (xy 132.08 148.59)
+			(xy 125.73 148.59) (xy 132.08 148.59)
 		)
 		(stroke
 			(width 0)
@@ -14545,6 +14565,83 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 116.84 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "207e3ff6-34f1-4c68-8ecf-4522e32ec4fd")
+		(property "Reference" "#PWR040"
+			(at 116.84 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.284 151.638 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 116.84 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1b2846a7-1745-4491-90ff-9146e70fc72f")
+		)
+		(instances
+			(project "CWRUM-systems-intro"
+				(path "/b6b07196-3c5e-42b3-a3fa-f0bae2f571e7"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 255.27 73.66 0)
 		(unit 1)
 		(body_style 1)
@@ -15623,7 +15720,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3bc78fec-756a-4672-8824-b47ee6b169b6")
-		(property "Reference" "R14"
+		(property "Reference" "R15"
 			(at 172.72 189.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15687,7 +15784,7 @@
 		(instances
 			(project "CWRUM-systems-intro"
 				(path "/b6b07196-3c5e-42b3-a3fa-f0bae2f571e7"
-					(reference "R14")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -17382,7 +17479,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "656b66e9-3514-4104-a3b2-4980c5ba529a")
-		(property "Reference" "R18"
+		(property "Reference" "R19"
 			(at 77.47 246.38 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17444,7 +17541,7 @@
 		(instances
 			(project "CWRUM-systems-intro"
 				(path "/b6b07196-3c5e-42b3-a3fa-f0bae2f571e7"
-					(reference "R18")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -17856,7 +17953,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7008e27b-e404-41c1-a661-8d88853a1e6c")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR039"
 			(at 72.39 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -17917,7 +18014,7 @@
 		(instances
 			(project "CWRUM-systems-intro"
 				(path "/b6b07196-3c5e-42b3-a3fa-f0bae2f571e7"
-					(reference "#PWR040")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -17996,6 +18093,85 @@
 			(project "CWRUM-systems-intro"
 				(path "/b6b07196-3c5e-42b3-a3fa-f0bae2f571e7"
 					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SYS_27:R")
+		(at 121.92 148.59 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "703feb4f-3337-474e-b102-6de5354315b6")
+		(property "Reference" "R11"
+			(at 121.92 144.018 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 121.92 146.558 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 121.92 146.812 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 121.92 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8071fa6e-dd4b-4e0a-8d4b-fbbbb72843ba")
+		)
+		(pin "2"
+			(uuid "9243b2d8-881b-463f-abe8-02f071668d4b")
+		)
+		(instances
+			(project "CWRUM-systems-intro"
+				(path "/b6b07196-3c5e-42b3-a3fa-f0bae2f571e7"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -18595,7 +18771,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b989e5c-0165-45c0-8ebf-9650beb94dd5")
-		(property "Reference" "R13"
+		(property "Reference" "R14"
 			(at 77.47 177.8 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18657,7 +18833,7 @@
 		(instances
 			(project "CWRUM-systems-intro"
 				(path "/b6b07196-3c5e-42b3-a3fa-f0bae2f571e7"
-					(reference "R13")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -18737,84 +18913,6 @@
 			(project "CWRUM-systems-intro"
 				(path "/b6b07196-3c5e-42b3-a3fa-f0bae2f571e7"
 					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 130.81 148.59 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7db98015-75f4-414a-8cd5-939799e1fc2b")
-		(property "Reference" "#PWR039"
-			(at 130.81 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 124.46 147.066 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 130.81 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b56de499-89e6-4b55-8cd3-266f8fad4995")
-		)
-		(instances
-			(project "CWRUM-systems-intro"
-				(path "/b6b07196-3c5e-42b3-a3fa-f0bae2f571e7"
-					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -20848,7 +20946,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad1b4cab-0da4-458b-a315-8a4e9cc63c50")
-		(property "Reference" "R11"
+		(property "Reference" "R12"
 			(at 39.37 168.91 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20910,7 +21008,7 @@
 		(instances
 			(project "CWRUM-systems-intro"
 				(path "/b6b07196-3c5e-42b3-a3fa-f0bae2f571e7"
-					(reference "R11")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -21186,7 +21284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1c432af-5c9d-4b84-ba30-aaaf0038ff6b")
-		(property "Reference" "R17"
+		(property "Reference" "R18"
 			(at 67.31 246.38 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21248,7 +21346,7 @@
 		(instances
 			(project "CWRUM-systems-intro"
 				(path "/b6b07196-3c5e-42b3-a3fa-f0bae2f571e7"
-					(reference "R17")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -21770,7 +21868,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca060bfb-59bd-406e-bb5e-e248ac99fbfc")
-		(property "Reference" "R12"
+		(property "Reference" "R13"
 			(at 67.31 177.8 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21832,7 +21930,7 @@
 		(instances
 			(project "CWRUM-systems-intro"
 				(path "/b6b07196-3c5e-42b3-a3fa-f0bae2f571e7"
-					(reference "R12")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -21951,7 +22049,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d121bc78-b7b0-480b-9fa4-103a37e3a84e")
-		(property "Reference" "R15"
+		(property "Reference" "R16"
 			(at 67.31 212.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22013,7 +22111,7 @@
 		(instances
 			(project "CWRUM-systems-intro"
 				(path "/b6b07196-3c5e-42b3-a3fa-f0bae2f571e7"
-					(reference "R15")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -22510,7 +22608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc972a6d-823f-4cb6-a04b-102268ff6cd5")
-		(property "Reference" "R16"
+		(property "Reference" "R17"
 			(at 77.47 212.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22572,7 +22670,7 @@
 		(instances
 			(project "CWRUM-systems-intro"
 				(path "/b6b07196-3c5e-42b3-a3fa-f0bae2f571e7"
-					(reference "R16")
+					(reference "R17")
 					(unit 1)
 				)
 			)
