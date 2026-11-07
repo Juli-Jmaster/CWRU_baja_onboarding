@@ -8477,6 +8477,16 @@
 		)
 		(uuid "7e046e99-9d8d-42e8-b627-940be98b3c30")
 	)
+	(text "boot0 = 0 \nMain Flash\n Memory"
+		(exclude_from_sim no)
+		(at 90.424 144.272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "83d01730-b293-4f20-8378-2f7fe480365f")
+	)
 	(text "Vss=read/write vcc=read only"
 		(exclude_from_sim no)
 		(at 278.892 61.722 0)
@@ -9324,6 +9334,16 @@
 			(type default)
 		)
 		(uuid "460315f6-9835-424e-adfc-2898c7a16b98")
+	)
+	(wire
+		(pts
+			(xy 96.52 138.43) (xy 96.52 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47207ac6-30ba-4968-a38f-ec6f0bc188c5")
 	)
 	(polyline
 		(pts
@@ -10444,6 +10464,16 @@
 			(type default)
 		)
 		(uuid "c50f84b9-1bb8-46f3-a85c-a7f2ab003775")
+	)
+	(wire
+		(pts
+			(xy 101.6 138.43) (xy 96.52 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6bef259-2a9d-4a32-8bc3-6f8f9b0c1240")
 	)
 	(wire
 		(pts
@@ -14606,6 +14636,88 @@
 		)
 	)
 	(symbol
+		(lib_id "SYS_27:R")
+		(at 96.52 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "561cff56-997f-4bee-a1d1-97f6b8f9b064")
+		(property "Reference" "R14"
+			(at 99.06 142.2399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 99.06 144.7799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 94.742 143.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 96.52 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0ba6335c-9e57-4a08-a1ff-17d0dc93376d")
+		)
+		(pin "2"
+			(uuid "5cdcbd3d-6433-4b34-83f4-106368726a5f")
+		)
+		(instances
+			(project "test"
+				(path "/574218a9-d8ee-4e76-a0dd-4a19b4b458d5"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "sys_27:C")
 		(at 109.22 111.76 0)
 		(unit 1)
@@ -18105,6 +18217,84 @@
 			(project "test"
 				(path "/574218a9-d8ee-4e76-a0dd-4a19b4b458d5"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 96.52 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da72e294-8edd-49a2-8539-cc20432b4166")
+		(property "Reference" "#PWR024"
+			(at 96.52 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 96.52 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 96.52 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "03de466f-b2ab-455e-9be2-cd9e3b3760f8")
+		)
+		(instances
+			(project "test"
+				(path "/574218a9-d8ee-4e76-a0dd-4a19b4b458d5"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
